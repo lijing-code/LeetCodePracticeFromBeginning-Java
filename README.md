@@ -8,16 +8,16 @@ This is a repository of my experience practicing Leetcode from scratch. I'm prep
 Plan to brush up on questions from data structures to algorithms, figure out the characteristics of each type, summarize my own templates, and brush up on classic high-frequency Easy and Medium questions before any interview.
 
 # 🗂️ Test Bank Organization
-## Data Structure 数据结构
+## 🧱 Data Structure 数据结构
 
-## Algorithm 算法
+## 💻 Algorithm 算法
 
 ## 🧮 Math 数学
 
 # 📖 Materials 资料整理
 
 # 🚀 Growth Record 成长记录
-## 📌 My Interview Status Update
+## 📍 My Interview Status Update
 
  - 08.31.22 Microsoft，Epic Game ❎ Resume Declined by the System
  - 09.03.22 Hudson River Trading ❎ CodeSignal VA: 4 questions in 70mins; pass 2, fail 2
