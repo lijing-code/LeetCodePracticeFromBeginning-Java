@@ -15,7 +15,8 @@ Plan to brush up on questions from data structures to algorithms, figure out the
 
 ## Math 数学
 
-## Materials 资料整理
+# Materials 资料整理
+# Growth Record 成长记录
 ## 📌 My Interview Status Update
 
  - 08.31.22 Microsoft ❎ Resume Declined by the System
