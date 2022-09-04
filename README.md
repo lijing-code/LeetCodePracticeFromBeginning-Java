@@ -14,14 +14,14 @@ Plan to brush up on questions from data structures to algorithms, figure out the
 
 ## 🧮 Math 数学
 
-# 📖 Reference Materials 参考资料整理
+# 📖 Reference Materials
 
  - [Leetcode 基本题解](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
  - [Leetcode101](https://github.com/changgyhub/leetcode_101)
 
 
 
-# 🚀 Growth Record 成长记录
+# 🚀 Growth Record 
 ## 📍 My Interview Status Update
 
  - 08.31.22 Microsoft，Epic Game ❎ Resume Declined by the System
