@@ -8,11 +8,15 @@ This is a repository of my experience practicing Leetcode from scratch. I'm prep
 Plan to brush up on questions from data structures to algorithms, figure out the characteristics of each type, summarize my own templates, and brush up on classic high-frequency Easy and Medium questions before any interview.
 
 # 🗂️ Test Bank Organization
-## 🧱 Data Structure 数据结构
 
-## 💻 Algorithm 算法
+## 🧱 [Data Structure 数据结构](./Data%20Structure/Conclusion.md)
 
-## 🧮 Math 数学
+
+## 💻 [Algorithm 算法](./Algorithm/Conclusion.md)
+
+## 🧮 [Math 数学](./Math/Conclusion.md)
+
+
 
 # 📖 Reference Materials
 
