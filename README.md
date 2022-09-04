@@ -1,5 +1,4 @@
 # 💡 Leetcode Practice From Beginning 💡
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=lijing-code&label=Leetcode%20views&color=c507b5&style=plastic" alt="lijing-leetcode" /> </p>
 
 ## 📚 What is this repository for?
 This is a repository of my experience practicing Leetcode from scratch. I'm preparing to apply for 2023/2024 SDE internship/NG application. Have 6 months Bootcamp experience and starting undergrad CS in June 2022. My ultimate goal is to get a winter 2023 or spring 2024 internship or 2023 full time SDE position.
