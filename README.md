@@ -12,14 +12,14 @@ Plan to brush up on questions from data structures to algorithms, figure out the
 
 ## Algorithm 算法
 
-## Math 数学
+## 🧮 Math 数学
 
 # 📖 Materials 资料整理
 
 # 🚀 Growth Record 成长记录
 ## 📌 My Interview Status Update
 
- - 08.31.22 Microsoft ❎ Resume Declined by the System
+ - 08.31.22 Microsoft，Epic Game ❎ Resume Declined by the System
  - 09.03.22 Hudson River Trading ❎ CodeSignal VA: 4 questions in 70mins; pass 2, fail 2
  - 09.06.22 MasterCard VO: 2 rounds
  - 09.10.22 Amazon VA
