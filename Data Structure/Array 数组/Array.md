@@ -2,5 +2,5 @@
 
 | Leetcode No.  | Title         |
 | ------------- | ------------- |
-| [1](./TwoSum.md)| Two Sum       |
+| [1](./Details/TwoSum.md)| Two Sum       |
 | Content Cell  | Content Cell  |
