@@ -1,4 +1,5 @@
 # 💡 Leetcode Practice From Beginning (Java) 💡
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=lijing-code.LeetCodePracticeFromBeginning-Java&left_text=MyPageVisitors)
 
 ## 📚 What is this repository for?
 This is a repository of my experience practicing Leetcode from scratch. I'm preparing to apply for 2023/2024 SDE internship/NG application. Have 6 months Bootcamp experience and starting undergrad CS in June 2022. My ultimate goal is to get a winter 2023 or spring 2024 internship or 2023 full time SDE position.
