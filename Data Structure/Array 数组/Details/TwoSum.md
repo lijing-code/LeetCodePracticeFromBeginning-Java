@@ -86,6 +86,51 @@ class Solution {
 <p>If sorted nums[left] + sorted nums[right] < target, move left pointer.</p>
 <p>End: left value + right value = target</p>
 
+```
+class Solution {
+     class Pair{
+         Integer value;
+         Integer index;
+         
+         Pair(Integer value, Integer index){
+             this.value = value;
+             this.index = index;
+         }
+         // Integer getValue() {
+         //     return this.value;
+         // }
+     }
+     
+    public int[] twoSum(int[] nums, int target) {
+        int[] ans = new int[2];
+        Pair[] numbers = new Pair[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            numbers[i] = new Pair(nums[i], i);
+        }
+//         sort nums 
+        Arrays.sort(nums); 
+//         two pointers set up
+        int left = 0;
+        int right = nums.length - 1;
+        
+        while (right > left ) { 
+            if(nums[left] + nums[right] == target) {
+                ans[0] = numbers[left].index;
+                ans[1] = numbers[right].index;
+            } else if (nums[left] + nums[right] > target){
+                right = right - 1;
+            } else {
+               left = left + 1; 
+            }
+        }
+        
+        return ans;
+        
+        
+    }
+}
+```
+
 #### Time O(nlogn); 两个指针只走了一次，n为数组大小. nlogn是quick sort的理想时间复杂度
 #### Space O(n); 创建了一个空的map，加上原来的nums空间，约等于O(n)，n为数组的大小
 #### notes：quick sort是把给出的无序序列以一个pivot为基准的快速排成有序序列，本质是tree，把给出的序列按pivot一分为二，并以分开的两部分继续向下分解，直到最后找出答案。所以logN是average子节点数，N是Tree的层数，因此快速排序正常遍历一遍的情况下时间复杂度是N*logN， worst case是n²
