@@ -51,7 +51,10 @@ class Solution {
 ## Follow-up: Can you come up with an algorithm that is less than O(n²) time complexity?
 
 ### Method 2 : HashMap (:+1:Recommend)
-<p>HashMap </p>
+<p>Build an empty hashmap, iterate nums.</p>
+<p>key is nums[i], value is the index.</p>
+<p>If the current number couldn't find a couple to add equal to the target, put the current number in hashmap.</p>
+<p>If hasmap contains a key can satisfy the condition with the current number, then the value is the first element in answer, the current number's index in nums is the second element in ans. </p>
 
 ```
 class Solution {
@@ -72,6 +75,13 @@ class Solution {
 }
 
 ```
-#### Time O(n); 
-#### Space O(n);
+#### Time O(n); 只loop了一次, n为数组的大小
+#### Space O(n); 创建了一个空的map，加上原来的nums空间，约等于O(n)，n为数组的大小
 
+### Method 3 : Two Pointers
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
