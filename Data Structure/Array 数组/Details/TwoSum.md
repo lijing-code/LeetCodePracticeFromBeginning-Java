@@ -84,4 +84,4 @@ class Solution {
 <p>Two pointer, one from beginning (left pointer), one from the last(right pointer).</p>
 <p>If sorted nums[left] + sorted nums[right] > target, move right pointer.</p>
 <p>If sorted nums[left] + sorted nums[right] < target, move left pointer.</p>
-<p>Till the left value + right value = target</p>
+<p>End: left value + right value = target</p>
