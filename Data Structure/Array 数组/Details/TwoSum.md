@@ -45,10 +45,10 @@ class Solution {
 ```
 #### Time O(n²); 两个for loop
 #### Space O(n); 空间没有增加，还是原nums空间
-
+<br>
 ### Follow-up: Can you come up with an algorithm that is less than O(n²) time complexity?
 
-### Method 2 : HashMap (## Recommend ##)
+### Method 2 : HashMap (** Recommend **)
 <p>HashMap </p>
 
 ```
