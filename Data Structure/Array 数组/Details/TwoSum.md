@@ -21,7 +21,7 @@ Output: [1,2]
 Input: nums = [3,3], target = 6
 Output: [0,1]
 ```
-### Method 1 
+### Method 1 : brute force
 ```
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -41,8 +41,8 @@ class Solution {
 }
 
 ```
-#### Time O(n^2);
-#### Space O(n); 
+#### Time O(n²); 两个for loop
+#### Space O(n); 空间没有增加，还是原nums空间
 
 ### Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
