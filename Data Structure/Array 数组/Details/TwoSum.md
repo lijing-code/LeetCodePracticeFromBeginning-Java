@@ -79,9 +79,9 @@ class Solution {
 #### Space O(n); 创建了一个空的map，加上原来的nums空间，约等于O(n)，n为数组的大小
 
 ### Method 3 : Two Pointers
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+<p>Create a hashmap to save the index and the value in nums.</p>
+<p>Sort nums in ascending order. from small to big.</p>
+<p>Two pointer, one from beginning (left pointer), one from the last(right pointer).</p>
+<p>If sorted nums[left] + sorted nums[right] > target, move right pointer.</p>
+<p>If sorted nums[left] + sorted nums[right] < target, move left pointer.</p>
+<p>Till the left value + right value = target</p>
