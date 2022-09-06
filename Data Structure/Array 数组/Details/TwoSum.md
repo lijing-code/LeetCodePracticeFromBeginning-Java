@@ -48,9 +48,9 @@ class Solution {
 
 <br>
 
-### Follow-up: Can you come up with an algorithm that is less than O(n²) time complexity?
+## Follow-up: Can you come up with an algorithm that is less than O(n²) time complexity?
 
-### Method 2 : HashMap (:+1:**Recommend**)
+### Method 2 : HashMap (:+1:Recommend)
 <p>HashMap </p>
 
 ```
