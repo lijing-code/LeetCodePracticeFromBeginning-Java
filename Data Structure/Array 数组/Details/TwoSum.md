@@ -22,6 +22,8 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 ```
 ### Method 1 : brute force
+<p>建立两个for循环，把每个组合都试一下，找出最终答案</p>
+
 ```
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -44,16 +46,30 @@ class Solution {
 #### Time O(n²); 两个for loop
 #### Space O(n); 空间没有增加，还是原nums空间
 
-### Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
+### Follow-up: Can you come up with an algorithm that is less than O(n²) time complexity?
+
+### Method 2 : HashMap (## Recommend ##)
+<p>HashMap </p>
 
 ```
 class Solution {
     public int[] twoSum(int[] nums, int target) {
+        int[] ans = new int[2];
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(target - nums[i])) {
+                ans[0] = map.get(target - nums[i]);
+                ans[1] = i;
+                return ans;
+            }
+            map.put(nums[i], i);
+        }
+        return ans;
         
     }
 }
 
 ```
-#### Time 
-#### Space 
+#### Time O(n); 
+#### Space O(n);
 
