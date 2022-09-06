@@ -85,3 +85,6 @@ class Solution {
 <p>If sorted nums[left] + sorted nums[right] > target, move right pointer.</p>
 <p>If sorted nums[left] + sorted nums[right] < target, move left pointer.</p>
 <p>End: left value + right value = target</p>
+
+#### Time O(n); 只loop了一次, n为数组的大小
+#### Space O(n); 创建了一个空的map，加上原来的nums空间，约等于O(n)，n为数组的大小
