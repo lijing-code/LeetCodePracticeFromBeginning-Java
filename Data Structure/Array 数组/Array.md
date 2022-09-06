@@ -1,7 +1,7 @@
 # Array
 
-| Leetcode No.  |    Lintcode No.     |Title         | Difficulty  | Frequency        |
-| ------------- | ------------- |------------- | ------------- | ------------- |
-| [1](./Details/TwoSum.md)| 1276        | Two Sum | Easy | *****
+| Leetcode No.  | Lintcode No.  | Title        | Difficulty  | Frequency        | Test Point |
+| ------------- | ------------- | ------------- | ------------- | ------------- |------------- |
+| [1](./Details/TwoSum.md)| 1276 | Two Sum | Easy | ***** | HashMap, Two Pointers|
 | Content Cell  |              | Content Cell  |
 
