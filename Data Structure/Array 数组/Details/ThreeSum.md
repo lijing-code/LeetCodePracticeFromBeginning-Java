@@ -42,7 +42,7 @@ Explanation: The only possible triplet sums up to 0.
 #### Space O(n);
 
 
-### Method 2 : 
+### Method 2 : Two Pointers (:+1:Recommend)
 <p>---</p>
 
 ```
@@ -106,19 +106,5 @@ public List<List<Integer>> threeSum(int[] numbers) {
 <p>三重循环，先sort Array，然后让 int i < int j < int k 找出所有可能性</p>
 <p>然后把答案找出，再排序，再存入Hashset去重</p>
 
-```
--
-
-```
 #### Time n^(3); 
 #### Space O(n²); 前两个loop走完第三个数字就是确定的了，再去重，就只需要n*n的空间就够了
-
-### Method 3 : HashTable
-<p>-</p>
-
-```
--
-```
-
-#### Time O(n); 
-#### Space O(n); 
