@@ -96,7 +96,7 @@ public List<List<Integer>> threeSum(int[] numbers) {
 
 ```
 #### Time O(n²); TwoSum is O(n), and we call it n times; Sort Array is O(nlogn); O(n²) + O(nlogn) = O(n²)
-#### Space O(n); from \mathcal{O}(\log{n})O(logn) to \mathcal{O}(n)O(n), depending on the implementation of the sorting algorithm. For the purpose of complexity analysis, we ignore the memory required for the output.？？？？啥意思
+#### Space O(n); from O(logn) to O(n), depending on the implementation of the sorting algorithm. 最优 Quicksort空间即为O(logn)，如果每一个arr里的数字都要换位置，空间即为O(n)
 
 
 

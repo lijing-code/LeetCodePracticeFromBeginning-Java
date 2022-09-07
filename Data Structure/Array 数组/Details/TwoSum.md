@@ -87,46 +87,53 @@ class Solution {
 <p>End: left value + right value = target</p>
 
 ```
-class Solution {
-     class Pair{
+public class Solution {
+    <!-- declare a data structor called Pair which consist of value and index -->
+    class Pair {
          Integer value;
          Integer index;
          
-         Pair(Integer value, Integer index){
-             this.value = value;
-             this.index = index;
+         <!-- Constructor -->
+         Pair(Integer value, Integer index) {
+            this.value = value;
+            this.index = index;
          }
-         // Integer getValue() {
-         //     return this.value;
-         // }
-     }
-     
-    public int[] twoSum(int[] nums, int target) {
-        int[] ans = new int[2];
-        Pair[] numbers = new Pair[nums.length];
-        for (int i = 0; i < nums.length; i++) {
-            numbers[i] = new Pair(nums[i], i);
+    }
+
+    <!-- declare a new class which implements the Comparator, in this class, I override the compare function.  -->
+    <!-- Comparator 是 java的一个内置interface，要创建自己的class实现这个interface，并调用（override)其中的compare方法在自己造的class里使用 -->
+     class ValueComparator implements Comparator<Pair> {    
+    
+        @Override    
+        public int compare(Pair o1, Pair o2) {    
+            return o1.value().compareTo(o2.value());      
         }
-//         sort nums 
-        Arrays.sort(nums); 
-//         two pointers set up
-        int left = 0;
-        int right = nums.length - 1;
-        
-        while (right > left ) { 
-            if(nums[left] + nums[right] == target) {
-                ans[0] = numbers[left].index;
-                ans[1] = numbers[right].index;
-            } else if (nums[left] + nums[right] > target){
-                right = right - 1;
+     }
+    public int[] twoSum(int[] numbers, int target) {
+        // write your code here
+        //用一个pair数组记录每个numbers[i]的值和它的位置i，防止排序后不知道该元素的位置
+        Pair[] pairs = new Pair[numbers.length];
+        for(int i=0;i<numbers.length;i++) {
+            pairs[i] = new Pair(numbers[i], i);
+        }
+        //排序,把pairs按valueComparator方法实现value从小到大排序
+        Arrays.sort(pairs, new ValueComparator());
+        int L= 0, R =  numbers.length-1;
+        while(L<R) {
+            if( number[L].value() + number[R].value() == target) {
+                int t1 = number[L].index;
+                int t2 = number[R].index;
+                int[] result = {Math.min(t1,t2), Math.max(t1,t2)};
+                return result;
+            }
+            if( number[L].value() + number[R].value() < target) {
+                L++;
             } else {
-               left = left + 1; 
+                R--;
             }
         }
-        
-        return ans;
-        
-        
+        int[] res = {};
+        return res;
     }
 }
 ```
