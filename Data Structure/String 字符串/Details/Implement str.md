@@ -32,10 +32,9 @@ If the source contains the target's content, return the location where the targe
 <p>出口就是target的最后一个char和source还能对得上，就证明source里面含target</p>
 
 ```
-public class Solution {
-    
+class Solution {     
     public int strStr(String source, String target) {
-        <!-- // edge case -->
+        // edge case
         int n = source.length();
         int m = target.length();
         if (m > n) return -1;
@@ -43,26 +42,22 @@ public class Solution {
         if (target == null || m == 0) return 0;
 
         for (int i = 0; i < n - m + 1; i++) {
-            <!-- manipulate k instead of i, easy to return i if the loop can find the answer -->
             int k = i;
             if (source.charAt(k) == target.charAt(0)){
                 for (int j = 0; j < m; j++) {
-                    <!-- if the two chars are equal, compare next char -->
                     if (source.charAt(k) == target.charAt(j)){
                         k++;
                     } else {
                         break;
-                    }   
-                }
-                if (source.charAt(k-1) == target.charAt(m-1)){
-                    return i;
+                    }  
+                    <!-- 注意这里k的位置 -->
+                    if (k-1-i == m-1 && source.charAt(k-1) == target.charAt(m-1)) {
+                        return i;
+                    }
                 } 
-                
             }
-            
         }
-        return -1;
-        
+        return -1;  
     }
 }
 
