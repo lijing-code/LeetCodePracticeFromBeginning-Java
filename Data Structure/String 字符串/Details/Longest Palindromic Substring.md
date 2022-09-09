@@ -66,7 +66,7 @@ class Solution {
 }
 
 ```
-#### Time O(n²); 
+#### Time O(n^n^n); isPalindrome也需要O(n)时间，这样复杂度相当于三次for循环了，超出了范围
 #### Space O(n); 
 
 <br>
