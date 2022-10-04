@@ -49,8 +49,13 @@ Plan to brush up on questions from data structures to algorithms, figure out the
 
  - 08.31.22 Microsoft，Epic Game ❎ Resume Declined by the System
  - 09.03.22 Hudson River Trading ❎ CodeSignal VA: 4 questions in 70mins; pass 2, fail 2
- - 09.06.22 MasterCard VO: 2 rounds
- - 09.10.22 Amazon VA
+ - 09.06.22 MasterCard VO: 2 rounds ❎ Not Take
+ - 09.10.22 Amazon VA ❎
+ - 09.21.22 GHC - Bank of America ✅
+ - 09.22.22 GHC - BNY Mellon ✅
+ - 09.23.22 GHC - Home Depot ❎
+ 
+
 
 
 
