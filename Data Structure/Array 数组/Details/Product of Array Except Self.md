@@ -25,7 +25,7 @@ Output: [0,0,9,0,0]
 ```
 
 ### Method 1 : 
-<p>---</p>
+<p>用目标数字左面的乘积*目标数字右面的乘积即为res。一直更新左面和右面的乘积值则可求出res上的数值。左右两边初始值都为1，先更新左边的乘积和res array，再更新右边乘积和res array。注意右边的边界是大于等于0</p>
 
 ```
 class Solution {
@@ -53,5 +53,5 @@ class Solution {
 }
 
 ```
-#### Time O(n); 
-#### Space O(1); 
+#### Time O(n); Loop了两遍，2*n，简化为O(n)
+#### Space O(1); 只开了一个空间for preProduct, 和 postProduct
