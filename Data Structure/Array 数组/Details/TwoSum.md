@@ -79,7 +79,6 @@ class Solution {
 #### Space O(n); 创建了一个空的map，加上原来的nums空间，约等于O(n)，n为数组的大小
 
 ### Method 3 : Two Pointers
-<p>Create a hashmap to save the index and the value in nums.</p>
 <p>Sort nums in ascending order. from small to big.</p>
 <p>Two pointer, one from beginning (left pointer), one from the last(right pointer).</p>
 <p>If sorted nums[left] + sorted nums[right] > target, move right pointer.</p>
@@ -136,5 +135,5 @@ public class Solution {
 ```
 
 #### Time O(nlogn); 两个指针只走了一次，n为数组大小. nlogn是quick sort的理想时间复杂度
-#### Space O(n); 创建了一个空的map，加上原来的nums空间，约等于O(n)，n为数组的大小
+#### Space O(n); 
 #### notes：quick sort是把给出的无序序列以一个pivot为基准的快速排成有序序列，本质是tree，把给出的序列按pivot一分为二，并以分开的两部分继续向下分解，直到最后找出答案。所以logN是average子节点数，N是Tree的层数，因此快速排序正常遍历一遍的情况下时间复杂度是N*logN， worst case是n²
