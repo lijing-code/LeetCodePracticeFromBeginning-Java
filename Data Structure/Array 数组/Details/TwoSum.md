@@ -102,11 +102,12 @@ public class Solution {
 
     <!-- declare a new class which implements the Comparator, in this class, I override the compare function.  -->
     <!-- Comparator 是 java的一个内置interface，要创建自己的class实现这个interface，并调用（override)其中的compare方法在自己造的class里使用 -->
+
      class ValueComparator implements Comparator<Pair> {    
     
         @Override    
         public int compare(Pair o1, Pair o2) {    
-            return o1.value().compareTo(o2.value());      
+            return o1.value.compareTo(o2.value);      
         }
      }
     public int[] twoSum(int[] numbers, int target) {
@@ -120,20 +121,16 @@ public class Solution {
         Arrays.sort(pairs, new ValueComparator());
         int L= 0, R =  numbers.length-1;
         while(L<R) {
-            if( number[L].value() + number[R].value() == target) {
-                int t1 = number[L].index;
-                int t2 = number[R].index;
-                int[] result = {Math.min(t1,t2), Math.max(t1,t2)};
-                return result;
+            if( pairs[L].value + pairs[R].value == target) {
+                return new int[]{pairs[L].index, pairs[R].index};
             }
-            if( number[L].value() + number[R].value() < target) {
+            if( pairs[L].value + pairs[R].value < target) {
                 L++;
             } else {
                 R--;
             }
         }
-        int[] res = {};
-        return res;
+        return new int[]{};
     }
 }
 ```
