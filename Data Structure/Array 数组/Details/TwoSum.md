@@ -44,7 +44,7 @@ class Solution {
 
 ```
 #### Time O(n²); 两个for loop
-#### Space O(n); 空间没有增加，还是原nums空间
+#### Space O(1); 
 
 <br>
 
